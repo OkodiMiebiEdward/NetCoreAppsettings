@@ -76,6 +76,13 @@ using NetCoreAppsettings.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 10 "C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\_Imports.razor"
+using Microsoft.Extensions.Configuration;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\Pages\FetchData.razor"
 using NetCoreAppsettings.Data;
 
