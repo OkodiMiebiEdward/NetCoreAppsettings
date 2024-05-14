@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ecb7cf11-5541-43fe-aa64-4aeb938e51e5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetCoreAppsettings")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50714906a2f450bd82b776d47a13bc38cf5fce7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed270755a9c4de4b0a7b330adb9a67afeb4cfcbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetCoreAppsettings")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetCoreAppsettings")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

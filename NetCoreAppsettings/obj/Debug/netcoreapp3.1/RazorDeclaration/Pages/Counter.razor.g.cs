@@ -82,6 +82,20 @@ using Microsoft.Extensions.Configuration;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\_Imports.razor"
+using NetCoreAppsettings.Options;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\_Imports.razor"
+using Microsoft.Extensions.Options;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : global::Microsoft.AspNetCore.Components.ComponentBase
     {

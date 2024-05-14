@@ -82,6 +82,20 @@ using Microsoft.Extensions.Configuration;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\_Imports.razor"
+using NetCoreAppsettings.Options;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\_Imports.razor"
+using Microsoft.Extensions.Options;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : global::Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -91,22 +105,25 @@ using Microsoft.Extensions.Configuration;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 15 "C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\Pages\Index.razor"
+#line 35 "C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\Pages\Index.razor"
       
-
     string settings = "";
     string subSetting = "";
     string connectionString = "";
+    EmailSettingsOptions emailSettings = new EmailSettingsOptions();
+
     protected override void OnInitialized()
     {
         settings = _config.GetValue<string>($"MySettings");
         subSetting = _config.GetValue<string>("MainSettings:SubSetting");
         connectionString = _config.GetConnectionString("Default");
+        emailSettings = _emailSettingOptions.Value;
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IOptions<EmailSettingsOptions> _emailSettingOptions { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IConfiguration _config { get; set; }
     }
 }

@@ -79,6 +79,13 @@ using Microsoft.Extensions.Configuration;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\_Imports.razor"
+using NetCoreAppsettings.Options;
+
+#line default
+#line hidden
+#nullable disable
     public partial class SurveyPrompt : global::Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

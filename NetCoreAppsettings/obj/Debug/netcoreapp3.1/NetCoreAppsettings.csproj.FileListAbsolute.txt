@@ -53,3 +53,5 @@ C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\obj\Debug\netc
 C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\obj\Debug\netcoreapp3.1\NetCoreAppsettings.pdb
 C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\obj\Debug\netcoreapp3.1\NetCoreAppsettings.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\obj\Debug\netcoreapp3.1\NetCoreA.E64E45BD.Up2Date
+C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\bin\Debug\netcoreapp3.1\appsettings.Production.json
+C:\Users\User\OneDrive\Desktop\AppsettingsDemo\NetCoreAppsettings\bin\Debug\netcoreapp3.1\appsettings.Staging.json
