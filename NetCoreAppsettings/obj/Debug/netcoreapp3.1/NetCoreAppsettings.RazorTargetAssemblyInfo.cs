@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetCoreAppsettings")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed270755a9c4de4b0a7b330adb9a67afeb4cfcbc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e82021436e2549febc3ad16f3026c23e2f9bff4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetCoreAppsettings.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

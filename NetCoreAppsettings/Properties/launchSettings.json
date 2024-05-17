@@ -12,7 +12,8 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Staging"
+        "ASPNETCORE_ENVIRONMENT": "Development"
+        //"MainSettings__SubSetting": "This is my sub settings from the env variables {launchSettings.json}"
       }
     },
     "NetCoreAppsettings": {
